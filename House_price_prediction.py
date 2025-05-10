@@ -18,7 +18,7 @@ st.title("🏠 House Price Prediction using Linear Regression")
 st.write("This app uses the Kaggle House Prices dataset (`train.csv`).")
 
 # Load dataset
-data = pd.read_csv("Linear\train.csv")
+data = pd.read_csv("train.csv")
 st.subheader("Dataset Preview")
 st.dataframe(data.head())
 
